@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inputs</title>
+    <link rel="stylesheet" href="../../styles/inputs.css">
+  </head>
+  <body>
+
+    <form>
+      <label>
+        Kleur
+        <input type="color" colorspace="display-p3" alpha />
+      </label>
+
+      <label>
+        Maand
+        <input type="month" min="2000-01" value="2026-11" />
+      </label>
+
+      <label>
+        Tel
+        <small>Voorbeeld: +31 12345678</small>
+        <input type="tel" pattern="^\+31[1-9][0-9]{8}$" />
+      </label>
+
+      <label>
+        Week
+        <input type="week" min="2026-W48" max="2026-W52" />
+      </label>
+    </form>
+    
+  </body>
+</html>
