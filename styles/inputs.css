@@ -1,4 +1,9 @@
+* {
+  color: #fff;
+  background-color: #0f121a;
+}
+
 label {
-    display: block;
-    padding: .5em;
+  display: block;
+  padding: 0.5em;
 }
